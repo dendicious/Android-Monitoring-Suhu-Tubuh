@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Aplikasi T-Shirt Pengamat Suhu Tubuh</string>
+    <string name="btn_mulai_pemantauan">Grafik Suhu Harian</string>
+    <string name="btn_realtime">Pengamatan Suhu Realtime</string>
+    <string name="btn_tentang_pengembang">Tentang Aplikasi</string>
+    <string name="btn_keluar">Logout</string>
+    <string name="ip_address">Masukan IP / Host Server</string>
+    <string name="nama">Masukan Nama</string>
+
+</resources>

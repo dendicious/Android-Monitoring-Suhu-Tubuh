@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/tv_selamat_datang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:layout_gravity="center"
+        android:textSize="@dimen/font_header" />
+
+    <TextView
+        android:id="@+id/tv_nama_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_gravity="center"
+        android:textSize="@dimen/font_header"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn_realtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/btn_realtime"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_grafik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/btn_mulai_pemantauan"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_tentang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/btn_tentang_pengembang"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_style"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/btn_keluar"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="dibuat oleh            Dendi Abdul Rohim (J3D112093)"
+        android:textAlignment="center" 
+        android:layout_gravity="center" 
+        android:textSize="@dimen/font_standar"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
